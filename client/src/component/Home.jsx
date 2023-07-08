@@ -62,11 +62,11 @@ const Home = () => {
               data.map((item, index) => {
                 return (
                   <div key={index}>
-                    <Card className="mt-4 me-3">
+                    <Card className="mt-4 ms-5">
                       <Card.Img
                         variant="top"
-                        height="150px"
-                        width="150px"
+                        height="100px"
+                        width="100px"
                         src={`http://localhost:4000/img/${item.image}`}
                       />
                       <Card.Body>
