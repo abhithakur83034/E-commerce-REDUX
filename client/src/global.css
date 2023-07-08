@@ -1,0 +1,7 @@
+.abc{
+    text-decoration: none !important;
+    color:rgba(255, 255, 255, 0.507);
+}
+.abc:hover{
+    color: rgba(255, 255, 255, 0.681);
+}
